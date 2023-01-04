@@ -1,6 +1,6 @@
 package core.java.design.pattern.segment1;
 
-public abstract class Game  implements Cloneable{
+public abstract class Game implements Cloneable {
     private String gName;
     private int player;
 
@@ -19,6 +19,7 @@ public abstract class Game  implements Cloneable{
     public void setPlayer(int player) {
         this.player = player;
     }
+
     abstract void playGame();
 
     @Override
